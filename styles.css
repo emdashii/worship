@@ -4,18 +4,20 @@ html, body {
 }
 
 :root {
-  --theme-light-color: #222222;
-  --theme-light-background: rgb(221, 221, 221);
-  --theme-light-tr-primary: rgba(235, 235, 235, 0.824);
-  --theme-light-tr-other: rgba(227, 227, 227, 0.93);
-  --theme-dark-color: #DDDDDD;
-  --theme-dark-background: #222222;
-  --theme-dark-tr-primary: rgba(128, 128, 128, 0.1);
-  --theme-dark-tr-other: rgba(128, 128, 128, 0.05);
+  --theme-light-color: #332211;
+  --theme-light-background: rgb(238, 234, 224);
+  --theme-light-tr-primary: rgba(245, 241, 231, 0.756);
+  --theme-light-tr-other: rgba(241, 237, 227, 0.93);
+  --theme-light-link: #8B4513;  /* Darker sepia for light theme */
+  --theme-dark-color: #E8DCC8;
+  --theme-dark-background: #2A2520;
+  --theme-dark-tr-primary: rgba(61, 56, 48, 0.479);
+  --theme-dark-tr-other: rgba(61, 56, 49, 0.05);
+  --theme-dark-link: #D2691E;  /* Lighter sepia for dark theme */
   /* setting light mode default */
   --color-text: var(--theme-light-color);
   --color-background: var(--theme-light-background);
-  --color-primary: var(--theme-light-color);
+  --color-primary: var(--theme-light-link);
   --color-tr-primary: var(--theme-light-tr-primary);
   --color-tr-other: var(--theme-light-tr-other);
 
@@ -25,7 +27,7 @@ html, body {
   :root {
       --color-text: var(--theme-dark-color);
       --color-background: var(--theme-dark-background);
-      --color-primary: var(--theme-dark-color);
+      --color-primary: var(--theme-dark-link);
       --color-tr-primary: var(--theme-dark-tr-primary);
       --color-tr-other: var(--theme-dark-tr-other);
   }
@@ -34,7 +36,7 @@ html, body {
 #theme-light:checked~main {
   --color-text: var(--theme-light-color);
   --color-background: var(--theme-light-background);
-  --color-primary: var(--theme-light-color);
+  --color-primary: var(--theme-light-link);
   --color-tr-primary: var(--theme-light-tr-primary);
   --color-tr-other: var(--theme-light-tr-other);
 }
@@ -42,7 +44,7 @@ html, body {
 #theme-dark:checked~main {
   --color-text: var(--theme-dark-color);
   --color-background: var(--theme-dark-background);
-  --color-primary: var(--theme-dark-color);
+  --color-primary: var(--theme-dark-link);
   --color-tr-primary: var(--theme-dark-tr-primary);
   --color-tr-other: var(--theme-dark-tr-other);
 }
