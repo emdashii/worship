@@ -48,6 +48,12 @@ const songList = [
 		},
 	},
 	{
+		'You Are Holy (Prince of Peace)': {
+			lyrics: 'https://www.azlyrics.com/lyrics/michaelwsmith/youareholyprinceofpeace.html',
+			chords: 'https://worshipchords.com/you-are-holy-prince-of-peace/',
+		},
+	},
+	{
 		'You Are Holy': {
 			lyrics: 'https://www.azlyrics.com/lyrics/jjhairstonyouthfulpraise/youareholy.html',
 			chords: 'https://worshipchords.com/you-are-holy',
