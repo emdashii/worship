@@ -305,6 +305,42 @@ const songList = [
 			chords: 'https://tabs.ultimate-guitar.com/tab/misc-praise-songs/at-the-cross-chords-1483591',
 		},
 	},
+	{
+		'More than Able': {
+			lyrics: 'https://www.azlyrics.com/lyrics/elevationworship/morethanable.html',
+			chords: 'https://worshipchords.com/more-than-able-chords/',
+		},
+	},
+	{
+		'Elohim (the God who goes before me)': {
+			lyrics: 'https://www.azlyrics.com/lyrics/bethelmusic/elohimlive.html',
+			chords: 'https://worshipchords.com/elohim-noah-paul-harrison-chords/',
+		},
+	},
+	{
+		'Elohim (God is patient)': {
+			lyrics: 'https://www.azlyrics.com/lyrics/hillsongworship/elohim.html',
+			chords: 'https://worshipchords.com/elohim-chords/',
+		},
+	},
+	{
+		'Who Else': {
+			lyrics: 'https://www.azlyrics.com/lyrics/shaneshane/whoelse.html',
+			chords: 'https://worshipchords.com/who-else-chords/',
+		},
+	},
+	{
+		'Hope of the World': {
+			lyrics: 'https://www.azlyrics.com/lyrics/redrocksworship/hopeoftheworld.html',
+			chords: 'https://essentialworship.com/songs/red-rocks-worship/hope-of-the-world-2/',
+		},
+	},
+	{
+		"Firm Foundation (He Won't)": {
+			lyrics: 'https://www.azlyrics.com/lyrics/codycarnes/firmfoundationhewont.html',
+			chords: 'https://worshipchords.com/firm-foundation-he-wont-chords/',
+		},
+	},
 ];
 
 function generateContent() {
