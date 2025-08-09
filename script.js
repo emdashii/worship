@@ -150,6 +150,12 @@ const songList = [
 		},
 	},
 	{
+		'Lord I Lift Your Name On High': {
+			lyrics: 'https://www.azlyrics.com/lyrics/mercyme/lordiliftyournameonhigh.html',
+			chords: 'https://worshipchords.com/lord-i-lift-your-name-on-high-chords/',
+		},
+	},
+	{
 		'Forever Reign': {
 			lyrics: 'https://www.azlyrics.com/lyrics/hillsonglive/foreverreign.html',
 			chords: 'https://www.worshiptogether.com/songs/forever-reign/',
