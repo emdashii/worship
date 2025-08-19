@@ -426,7 +426,28 @@ function searchSongs() {
 	allSongs = filtered;
 }
 
+function initializeTheme() {
+	const savedTheme = localStorage.getItem('theme');
+	const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+	
+	if (savedTheme) {
+		document.getElementById(savedTheme).checked = true;
+	} else if (prefersDark) {
+		document.getElementById('theme-dark').checked = true;
+	}
+	
+	document.getElementById('theme-light').addEventListener('change', () => {
+		localStorage.setItem('theme', 'theme-light');
+	});
+	
+	document.getElementById('theme-dark').addEventListener('change', () => {
+		localStorage.setItem('theme', 'theme-dark');
+	});
+}
+
 document.addEventListener('DOMContentLoaded', function () {
+	initializeTheme();
+	
 	allSongs = [...songList];
 	generateContent();
 
