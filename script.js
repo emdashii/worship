@@ -102,9 +102,9 @@ const songList = [
 		},
 	},
 	{
-		'Blessed Assurance': {
+		'Blessed Assurance (in 6/8)': {
 			lyrics: 'https://www.azlyrics.com/lyrics/carrieunderwood/blessedassurance.html',
-			chords: 'https://worshipchords.com/blessed-assurance/',
+			chords: 'blessedAssuranceChords.pdf',
 		},
 	},
 	{
