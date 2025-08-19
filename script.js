@@ -104,7 +104,7 @@ const songList = [
 	{
 		'Blessed Assurance (in 6/8)': {
 			lyrics: 'https://www.azlyrics.com/lyrics/carrieunderwood/blessedassurance.html',
-			chords: 'blessedAssuranceChords.pdf',
+			chords: 'blessedAssurance.pdf',
 		},
 	},
 	{
@@ -377,19 +377,19 @@ function sortTableByTitle() {
 	const sortedList = [...allSongs].sort((a, b) => {
 		const titleA = Object.keys(a)[0].toLowerCase();
 		const titleB = Object.keys(b)[0].toLowerCase();
-		
+
 		if (titleSortOrder === 'asc') {
 			return titleA < titleB ? -1 : titleA > titleB ? 1 : 0;
 		} else {
 			return titleA > titleB ? -1 : titleA < titleB ? 1 : 0;
 		}
 	});
-	
+
 	titleSortOrder = titleSortOrder === 'asc' ? 'desc' : 'asc';
 	const arrow = titleSortOrder === 'asc' ? '↑' : '↓';
 	document.getElementById('titleHeader').innerHTML = `title ${arrow}`;
 	document.getElementById('numberHeader').innerHTML = '# ↕';
-	
+
 	generateContent(sortedList);
 	allSongs = sortedList;
 }
@@ -398,19 +398,19 @@ function sortTableByNumber() {
 	const sortedList = [...allSongs].sort((a, b) => {
 		const indexA = songList.indexOf(a);
 		const indexB = songList.indexOf(b);
-		
+
 		if (numberSortOrder === 'asc') {
 			return indexA - indexB;
 		} else {
 			return indexB - indexA;
 		}
 	});
-	
+
 	numberSortOrder = numberSortOrder === 'asc' ? 'desc' : 'asc';
 	const arrow = numberSortOrder === 'asc' ? '↑' : '↓';
 	document.getElementById('numberHeader').innerHTML = `# ${arrow}`;
 	document.getElementById('titleHeader').innerHTML = 'title ↕';
-	
+
 	generateContent(sortedList);
 	allSongs = sortedList;
 }
@@ -421,15 +421,15 @@ function searchSongs() {
 		const title = Object.keys(item)[0].toLowerCase();
 		return title.includes(searchTerm);
 	});
-	
+
 	generateContent(filtered);
 	allSongs = filtered;
 }
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
 	allSongs = [...songList];
 	generateContent();
-	
+
 	document.getElementById('titleHeader').addEventListener('click', sortTableByTitle);
 	document.getElementById('numberHeader').addEventListener('click', sortTableByNumber);
 	document.getElementById('searchInput').addEventListener('input', searchSongs);
