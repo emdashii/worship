@@ -347,6 +347,24 @@ const songList = [
 			chords: 'https://worshipchords.com/firm-foundation-he-wont-chords/',
 		},
 	},
+	{
+		"Holy Forever": {
+			lyrics: 'https://www.azlyrics.com/lyrics/christomlin/holyforever.html',
+			chords: 'https://worshipchords.com/holy-forever-chords/',
+		},
+	},
+	{
+		"Ever Be": {
+			lyrics: 'https://www.azlyrics.com/lyrics/shaneshane/everbe.html',
+			chords: 'https://worshipchords.com/ever-be-chords/',
+		},
+	},
+	{
+		"House of Miracles": {
+			lyrics: 'https://www.azlyrics.com/lyrics/brandonlake/houseofmiracles.html',
+			chords: 'https://worshipchords.com/house-of-miracles-chords/',
+		},
+	},
 ];
 
 let titleSortOrder = 'asc';
