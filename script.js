@@ -14,7 +14,7 @@ const songList = [
 	{
 		'Way Maker': {
 			lyrics: 'https://www.azlyrics.com/lyrics/sinach/waymaker.html',
-			chords: 'https://worshipchords.com/way-maker-chords/',
+			chords: 'https://pnwchords.com/way-maker-leeland-sinach/',
 		},
 	},
 	{
@@ -32,37 +32,37 @@ const songList = [
 	{
 		'Be Thou My Vision': {
 			lyrics: 'https://www.azlyrics.com/lyrics/audreyassad/bethoumyvision.html',
-			chords: 'https://worshipchords.com/be-thou-my-vision-chords/',
+			chords: 'https://tabs.ultimate-guitar.com/tab/misc-praise-songs/be-thou-my-vision-chords-1410139',
 		},
 	},
 	{
 		'Tis So Sweet to Trust in Jesus': {
 			lyrics: 'https://www.azlyrics.com/lyrics/alanjackson/tissosweettotrustinjesus.html',
-			chords: 'https://worshipchords.com/tis-so-sweet-to-trust-in-jesus-chords/',
+			chords: 'https://www.worshipchords.net/guitar/sda-hymns/tis-so-sweet-to-trust-in-jesus',
 		},
 	},
 	{
 		'What a Friend We Have in Jesus': {
 			lyrics: 'https://www.azlyrics.com/lyrics/alanjackson/whatafriendwehaveinjesus.html',
-			chords: 'https://worshipchords.com/what-a-friend-we-have-in-jesus-chords/',
+			chords: 'https://www.worshiptogether.com/songs/what-a-friend-we-have-in-jesus-stephen-mcwhirter/',
 		},
 	},
 	{
 		'You Are Holy (Prince of Peace)': {
 			lyrics: 'https://www.azlyrics.com/lyrics/michaelwsmith/youareholyprinceofpeace.html',
-			chords: 'https://worshipchords.com/you-are-holy-prince-of-peace/',
+			chords: 'https://www.worshipchords.net/guitar/michael-w-smith/you-are-holy-prince-of-peace',
 		},
 	},
 	{
-		'You Are Holy': {
-			lyrics: 'https://www.azlyrics.com/lyrics/jjhairstonyouthfulpraise/youareholy.html',
-			chords: 'https://worshipchords.com/you-are-holy',
+		Praise: {
+			lyrics: 'https://www.azlyrics.com/lyrics/elevationworship/praise.html',
+			chords: 'https://pnwchords.com/praise-elevation-worship/',
 		},
 	},
 	{
 		'Mighty to Save': {
 			lyrics: 'https://www.azlyrics.com/lyrics/hillsongunited/mightytosave.html',
-			chords: 'https://worshipchords.com/mighty-to-save/',
+			chords: 'https://pnwchords.com/mighty-to-save-hillsong-worship/',
 		},
 	},
 	{
@@ -74,7 +74,7 @@ const songList = [
 	{
 		'Above All': {
 			lyrics: 'https://www.azlyrics.com/lyrics/michaelwsmith/aboveall.html',
-			chords: 'https://worshipchords.com/above-all/',
+			chords: 'https://pnwchords.com/above-all-michael-w-smith/',
 		},
 	},
 	{
@@ -86,7 +86,7 @@ const songList = [
 	{
 		'Come Thou Fount': {
 			lyrics: 'https://www.azlyrics.com/lyrics/saragroves/comethoufount.html',
-			chords: 'https://worshipchords.com/come-thou-fount/',
+			chords: 'https://www.worshiptogether.com/songs/come-thou-fount/',
 		},
 	},
 	{
@@ -116,7 +116,7 @@ const songList = [
 	{
 		'Leaning on the Everlasting Arms': {
 			lyrics: 'https://www.azlyrics.com/lyrics/alanjackson/leaningontheeverlastingarms.html',
-			chords: 'https://worshipchords.com/leaning-on-the-everlasting-arms-chords/',
+			chords: 'https://tabs.ultimate-guitar.com/tab/misc-praise-songs/leaning-on-the-everlasting-arms-chords-820703',
 		},
 	},
 	{
@@ -140,19 +140,19 @@ const songList = [
 	{
 		"I'll Fly Away": {
 			lyrics: 'https://genius.com/Religious-music-hymns-ill-fly-away-lyrics',
-			chords: 'https://worshipchords.com/ill-fly-away-chords/',
+			chords: 'https://www.worshiptogether.com/songs/ill-fly-away-tommee-profitt-fleurie/',
 		},
 	},
 	{
 		'You are My All in All': {
 			lyrics: 'https://www.azlyrics.com/lyrics/nicholenordeman/youaremyallinall.html',
-			chords: 'https://worshipchords.com/you-are-my-all-in-all-chords/',
+			chords: 'https://pnwchords.com/you-are-my-all-in-all-nicole-nordeman/',
 		},
 	},
 	{
 		'Lord I Lift Your Name On High': {
 			lyrics: 'https://www.azlyrics.com/lyrics/mercyme/lordiliftyournameonhigh.html',
-			chords: 'https://worshipchords.com/lord-i-lift-your-name-on-high-chords/',
+			chords: 'https://www.worshiptogether.com/songs/lord-i-lift-your-name-on-high-shane-shane/',
 		},
 	},
 	{
@@ -176,133 +176,134 @@ const songList = [
 	{
 		'Jesus Paid it All': {
 			lyrics: 'https://www.azlyrics.com/lyrics/kimwalkersmith/jesuspaiditall.html',
-			chords: 'https://worshipchords.com/jesus-paid-it-all/',
+			chords: 'https://pnwchords.com/jesus-paid-it-all-hymn/',
 		},
 	},
 	{
 		'In Christ Alone/On Christ the Solid Rock': {
 			lyrics: 'https://www.azlyrics.com/lyrics/nataliegrant/inchristalone.html',
-			chords: 'https://worshipchords.com/in-christ-alone/',
+			chords: 'https://www.worshiptogether.com/songs/in-christ-alone-the-solid-rock-travis-cottrell/',
+			alt: 'https://pnwchords.com/in-christ-alone-keith-getty-stuart-townend-passion-cover/',
 		},
 	},
 	{
 		'The Goodness of God': {
 			lyrics: 'https://www.azlyrics.com/lyrics/shaneshane/goodnessofgod.html',
-			chords: 'https://worshipchords.com/goodness-of-god-chords/',
+			chords: 'https://pnwchords.com/the-goodness-of-god-bethel-worship/',
 		},
 	},
 	{
 		'Shout to the Lord': {
 			lyrics: 'https://www.azlyrics.com/lyrics/darlenezschech/shouttothelord.html',
-			chords: 'https://worshipchords.com/shout-to-the-lord-chords/',
+			chords: 'https://pnwchords.com/shout-to-the-lord-hillsong-worship-darlene-zschech/',
 		},
 	},
 	{
 		'How Great is Our God': {
 			lyrics: 'https://www.azlyrics.com/lyrics/christomlin/howgreatisourgod.html',
-			chords: 'https://worshipchords.com/how-great-is-our-god-chords/',
+			chords: 'https://pnwchords.com/how-great-is-our-god-chris-tomlin/',
 		},
 	},
 	{
 		'Amazing Grace (My Chains Are Gone)': {
 			lyrics: 'https://www.azlyrics.com/lyrics/christomlin/amazinggracemychainsaregone.html',
-			chords: 'https://worshipchords.com/amazing-grace-my-chains-are-gone/',
+			chords: 'https://tabs.ultimate-guitar.com/tab/chris-tomlin/amazing-grace-my-chains-are-gone-chords-502982',
 		},
 	},
 	{
 		'Build My Life': {
 			lyrics: 'https://www.azlyrics.com/lyrics/bethelmusic/buildmylife.html',
-			chords: 'https://worshipchords.com/build-my-life/',
+			chords: 'https://pnwchords.com/build-my-life-housefires/',
 		},
 	},
 	{
 		'Who You Say I Am': {
 			lyrics: 'https://www.azlyrics.com/lyrics/hillsongworship/whoyousayiam.html',
-			chords: 'https://worshipchords.com/who-you-say-i-am-chords/',
+			chords: 'https://pnwchords.com/who-you-say-i-am-hillsong/',
 		},
 	},
 	{
 		Cornerstone: {
 			lyrics: 'https://www.azlyrics.com/lyrics/hillsonglive/cornerstone.html',
-			chords: 'https://worshipchords.com/cornerstone/',
+			chords: 'https://www.worshiptogether.com/songs/cornerstone-hillsong-worship/',
 		},
 	},
 	{
 		'Reckless Love': {
 			lyrics: 'https://www.azlyrics.com/lyrics/coryasbury/recklesslove.html',
-			chords: 'https://worshipchords.com/reckless-love/',
+			chords: 'https://pnwchords.com/reckless-love-bethel-worship/',
 		},
 	},
 	{
 		'How Great Thou Art': {
 			lyrics: 'https://www.azlyrics.com/lyrics/carrieunderwood/howgreatthouart.html',
-			chords: 'https://worshipchords.com/how-great-thou-art/',
+			chords: 'https://pnwchords.com/how-great-thou-art-hymn/',
 		},
 	},
 	{
 		'Here I Am to Worship': {
 			lyrics: 'https://www.azlyrics.com/lyrics/christomlin/hereiamtoworship.html',
-			chords: 'https://worshipchords.com/here-i-am-to-worship/',
+			chords: 'https://pnwchords.com/here-i-am-to-worship-tim-hughes/',
 		},
 	},
 	{
 		'Blessed Be Your Name': {
 			lyrics: 'https://genius.com/Matt-redman-blessed-be-your-name-lyrics',
-			chords: 'https://worshipchords.com/blessed-be-your-name-chords/',
+			chords: 'https://pnwchords.com/blessed-be-your-name-matt-redman/',
 		},
 	},
 	{
 		'Our God': {
 			lyrics: 'https://www.azlyrics.com/lyrics/christomlin/ourgod.html',
-			chords: 'https://worshipchords.com/our-god-chords/',
+			chords: 'https://www.worshiptogether.com/songs/our-god-chris-tomlin/',
 		},
 	},
 	{
 		Hosanna: {
 			lyrics: 'https://www.azlyrics.com/lyrics/hillsongunited/hosanna.html',
-			chords: 'https://worshipchords.com/hosanna/',
+			chords: 'https://pnwchords.com/hosanna-hillsong/',
 		},
 	},
 	{
 		'Heart of Worship': {
 			lyrics: 'https://www.azlyrics.com/lyrics/michaelwsmith/theheartofworship.html',
-			chords: 'https://worshipchords.com/heart-of-worshipi-love-you-lord-chords/',
+			chords: 'https://pnwchords.com/heart-of-worship-matt-redman/',
 		},
 	},
 	{
 		'Your Grace is Enough': {
 			lyrics: 'https://www.azlyrics.com/lyrics/mattmaher/yourgraceisenough.html',
-			chords: 'https://worshipchords.com/your-grace-is-enough/',
+			chords: 'https://www.worshiptogether.com/songs/your-grace-is-enough-chris-tomlin/',
 		},
 	},
 	{
 		'Days of Elijah': {
 			lyrics: 'https://www.azlyrics.com/lyrics/donniemcclurkin/daysofelijah.html',
-			chords: 'https://worshipchords.com/days-of-elijah/',
+			chords: 'https://tabs.ultimate-guitar.com/tab/paul-wilbur/days-of-elijah-chords-433565',
 		},
 	},
 	{
 		'Before the Throne of God Above': {
 			lyrics: 'https://www.azlyrics.com/lyrics/shaneshane/beforethethroneofgodabove.html',
-			chords: 'https://worshipchords.com/before-the-throne-of-god-above/',
+			chords: 'https://tabs.ultimate-guitar.com/tab/sovereign-grace-music/before-the-throne-of-god-above-chords-3019781',
 		},
 	},
 	{
 		'How He Loves': {
 			lyrics: 'https://www.azlyrics.com/lyrics/johnmarkmcmillan/howheloves.html',
-			chords: 'https://worshipchords.com/how-he-loves/',
+			chords: 'https://pnwchords.com/how-he-loves-us-david-crowder-band-john-mark-mcmillan-jesus-culture/',
 		},
 	},
 	{
 		'One Thing Remains': {
 			lyrics: 'https://www.azlyrics.com/lyrics/jesusculture/onethingremains.html',
-			chords: 'https://worshipchords.com/one-thing-remains/',
+			chords: 'https://pnwchords.com/one-thing-remains-bethel-worship/',
 		},
 	},
 	{
 		'At the Cross (Love Ran Red)': {
 			lyrics: 'https://www.azlyrics.com/lyrics/shaneshane/atthecrossloveranred.html',
-			chords: 'https://worshipchords.com/at-the-cross/',
+			chords: 'https://tabs.ultimate-guitar.com/tab/chris-tomlin/at-the-cross-love-ran-red-chords-1457273',
 		},
 	},
 	{
@@ -314,25 +315,25 @@ const songList = [
 	{
 		'More than Able': {
 			lyrics: 'https://www.azlyrics.com/lyrics/elevationworship/morethanable.html',
-			chords: 'https://worshipchords.com/more-than-able-chords/',
+			chords: 'https://www.worshiptogether.com/songs/more-than-able-elevation-worship/',
 		},
 	},
 	{
 		'Elohim (the God who goes before me)': {
 			lyrics: 'https://www.azlyrics.com/lyrics/bethelmusic/elohimlive.html',
-			chords: 'https://worshipchords.com/elohim-noah-paul-harrison-chords/',
+			chords: 'https://tabs.ultimate-guitar.com/tab/bethel-music/elohim-chords-5707559',
 		},
 	},
 	{
 		'Elohim (God is patient)': {
 			lyrics: 'https://www.azlyrics.com/lyrics/hillsongworship/elohim.html',
-			chords: 'https://worshipchords.com/elohim-chords/',
+			chords: 'https://www.worshiptogether.com/songs/elohim-hillsong-worship/',
 		},
 	},
 	{
-		'Who Else': {
+		'Who Else (is worthy)': {
 			lyrics: 'https://www.azlyrics.com/lyrics/shaneshane/whoelse.html',
-			chords: 'https://worshipchords.com/who-else-chords/',
+			chords: 'https://www.worshiptogether.com/songs/who-else-gateway-worship/',
 		},
 	},
 	{
@@ -344,25 +345,56 @@ const songList = [
 	{
 		"Firm Foundation (He Won't)": {
 			lyrics: 'https://www.azlyrics.com/lyrics/codycarnes/firmfoundationhewont.html',
-			chords: 'https://worshipchords.com/firm-foundation-he-wont-chords/',
+			chords: 'https://www.worshiptogether.com/songs/firm-foundation-he-wont-cody-carnes/',
 		},
 	},
 	{
-		"Holy Forever": {
+		'Holy Forever': {
 			lyrics: 'https://www.azlyrics.com/lyrics/christomlin/holyforever.html',
-			chords: 'https://worshipchords.com/holy-forever-chords/',
+			chords: 'https://www.worshiptogether.com/songs/holy-forever-chris-tomlin/',
 		},
 	},
 	{
-		"Ever Be": {
+		'Ever Be': {
 			lyrics: 'https://www.azlyrics.com/lyrics/shaneshane/everbe.html',
-			chords: 'https://worshipchords.com/ever-be-chords/',
+			chords: 'https://tabs.ultimate-guitar.com/tab/bethel-music/ever-be-chords-1701894',
 		},
 	},
 	{
-		"House of Miracles": {
+		'House of Miracles': {
 			lyrics: 'https://www.azlyrics.com/lyrics/brandonlake/houseofmiracles.html',
-			chords: 'https://worshipchords.com/house-of-miracles-chords/',
+			chords: 'https://tabs.ultimate-guitar.com/tab/brandon-lake/house-of-miracles-chords-3312011',
+			alt: 'https://pnwchords.com/house-of-miracles-brandon-lake/',
+		},
+	},
+	{
+		Gratitude: {
+			lyrics: 'https://www.azlyrics.com/lyrics/brandonlake/gratitude.html',
+			chords: 'https://pnwchords.com/gratitude-brandon-lake/',
+		},
+	},
+	{
+		'I speak Jesus': {
+			lyrics: 'https://www.azlyrics.com/lyrics/charitygayle/ispeakjesus.html',
+			chords: 'https://pnwchords.com/i-speak-jesus-charity-gayle/',
+		},
+	},
+	{
+		'Worthy of it All': {
+			lyrics: 'https://www.azlyrics.com/lyrics/cecewinans/worthyofitalllive.html',
+			chords: 'https://pnwchords.com/worthy-of-it-all-david-brymer/',
+		},
+	},
+	{
+		'O Come to the Alter': {
+			lyrics: 'https://www.azlyrics.com/lyrics/elevationworship/ocometothealtar.html',
+			chords: 'https://www.worshipchords.net/guitar/elevation-worship/o-come-to-the-altar',
+		},
+	},
+	{
+		'O Praise The Name (Anastasis)': {
+			lyrics: 'https://www.azlyrics.com/lyrics/hillsongworship/opraisethenameanstasis.html',
+			chords: 'https://pnwchords.com/o-praise-the-name-anastasis-hillsong/',
 		},
 	},
 ];
@@ -447,17 +479,17 @@ function searchSongs() {
 function initializeTheme() {
 	const savedTheme = localStorage.getItem('theme');
 	const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-	
+
 	if (savedTheme) {
 		document.getElementById(savedTheme).checked = true;
 	} else if (prefersDark) {
 		document.getElementById('theme-dark').checked = true;
 	}
-	
+
 	document.getElementById('theme-light').addEventListener('change', () => {
 		localStorage.setItem('theme', 'theme-light');
 	});
-	
+
 	document.getElementById('theme-dark').addEventListener('change', () => {
 		localStorage.setItem('theme', 'theme-dark');
 	});
@@ -465,7 +497,7 @@ function initializeTheme() {
 
 document.addEventListener('DOMContentLoaded', function () {
 	initializeTheme();
-	
+
 	allSongs = [...songList];
 	generateContent();
 
