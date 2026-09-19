@@ -4,16 +4,16 @@ html, body {
 }
 
 :root {
-  --theme-light-color: #332211;
-  --theme-light-background: rgb(238, 234, 224);
-  --theme-light-tr-primary: rgba(245, 241, 231, 0.756);
-  --theme-light-tr-other: rgba(241, 237, 227, 0.93);
-  --theme-light-link: #8B4513;  /* Darker sepia for light theme */
-  --theme-dark-color: #E8DCC8;
-  --theme-dark-background: #2A2520;
-  --theme-dark-tr-primary: rgba(61, 56, 48, 0.479);
-  --theme-dark-tr-other: rgba(61, 56, 49, 0.05);
-  --theme-dark-link: #D2691E;  /* Lighter sepia for dark theme */
+  --theme-light-color: #403E3C;            /* base-800 */
+  --theme-light-background: #F2F0E5;       /* base-50  */
+  --theme-light-tr-primary: #DAD8CE;       /* base-150 */
+  --theme-light-tr-other: #E6E4D9;         /* base-100 */
+  --theme-light-link: #BC5215;             /* orange-600 */
+  --theme-dark-color: #CECDC3;             /* base-200 */
+  --theme-dark-background: #1C1B1A;        /* base-950 */
+  --theme-dark-tr-primary: #343331;        /* base-850 */
+  --theme-dark-tr-other: #282726;          /* base-900 */
+  --theme-dark-link: #DA702C;              /* orange-400 */
   /* setting light mode default */
   --color-text: var(--theme-light-color);
   --color-background: var(--theme-light-background);
